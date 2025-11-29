@@ -1,0 +1,7 @@
+.CalculatorContainer{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 2px #333;
+    width: 300px;
+    padding: 1rem;
+}

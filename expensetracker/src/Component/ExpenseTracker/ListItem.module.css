@@ -1,0 +1,29 @@
+.ulContainer{
+    max-height: 750px;
+    overflow-y: auto;
+}
+
+.ulContainer li{
+    margin: .3rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ulContainer li span{
+    font-size: 1rem;
+    color: #333;
+}
+
+.ulContainer li .delete,
+.ulContainer li .edit{
+    color: royalblue;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.ulContainer li .delete{
+    margin-right: 1rem;
+}

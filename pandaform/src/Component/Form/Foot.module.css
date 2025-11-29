@@ -1,0 +1,58 @@
+.foot{
+    height:50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #3F3554;
+    position: absolute;
+    border: 2px solid #2E0D30;
+    border-radius: 100px 100px 20px 20px;
+}
+
+.foot::after{
+    position: absolute;
+    top:63%;
+    left: 50%;
+    background-color: #fff;
+    content: " ";
+    height: 20px;
+    width: 25px;
+    border-radius:100px 100px 20px 20px;
+    transform: translate(-50%, -50%);
+}
+
+.footL{
+    bottom: -13px;
+    left: 103px;
+}
+
+.footR{
+    bottom: -13px;
+    right:103px;
+}
+
+.nails{
+    height: 10px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.nail1{
+    margin: 10px 4px 0 0;
+}
+.nail2{
+    margin: 4px 0px 0 0;
+}
+.nail3{
+    margin: 10px 0px 0 4px;
+}
+
+@media screen and (max-width:427px) {
+   .footR{
+    left: 220px;
+   }
+   .footL{
+    left: 75px;
+   }
+}

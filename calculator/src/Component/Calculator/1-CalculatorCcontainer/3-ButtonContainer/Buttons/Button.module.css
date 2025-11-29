@@ -1,0 +1,20 @@
+.button{
+    height: 47px;
+    width: 47px;
+    margin: 10px;
+    background: none;
+    outline: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.button:nth-child(17){
+    width:112px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #333;
+}

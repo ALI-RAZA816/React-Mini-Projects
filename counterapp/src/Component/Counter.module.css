@@ -1,0 +1,47 @@
+.counterBox{
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(255, 255, 255,.3);
+}
+
+.counterBox h1{
+    color: #fff;
+    margin-bottom: 8rem;
+    font-size: 5rem;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons button{
+    height: 50px;
+    width: 80px;
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons button:first-child{
+    background: rgb(194, 7, 7);
+}
+
+.buttons button:last-child{
+    background: green;
+}
+
+.buttons button:nth-child(2){
+    margin: 0 1.5rem;
+    width: 150px;
+    background-color: royalblue;
+}

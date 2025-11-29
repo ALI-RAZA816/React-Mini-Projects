@@ -1,0 +1,23 @@
+.ListItem li {
+    list-style-type: none;
+    display: flow-root;
+    line-height: 40px;
+    margin: 1rem 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding-left: .5rem;
+}
+.ListItem li button{
+    cursor: pointer;
+    float: right;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    min-width:60px;
+    background: royalblue;
+}
+.color{
+    background-color: rgba(255, 0, 0, 0.411);
+}

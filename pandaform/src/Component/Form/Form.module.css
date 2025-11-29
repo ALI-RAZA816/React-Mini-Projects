@@ -1,0 +1,48 @@
+.form {
+    padding: 3rem;
+    border-radius: 5px;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.form label {
+    color: #3F3554;
+    font-weight: 550;
+    margin-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.userNameField,
+.userPasswordField {
+    height: 30px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3F3554;
+    margin-bottom: 1rem;
+}
+
+.form button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #3F3554;
+    font-weight: 550;
+    background-color: #F4C531;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:427px) {
+    .form {
+        height: 350px;
+        width: 350px;
+    }
+}

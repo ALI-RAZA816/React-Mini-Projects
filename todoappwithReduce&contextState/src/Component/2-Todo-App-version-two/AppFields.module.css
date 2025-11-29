@@ -1,0 +1,25 @@
+.appFields{
+    display: flex;
+    flex-direction: row;
+}
+
+.appFields input{
+    height: 40px;
+    width: 200px;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 .5rem;
+    margin-right: .5rem;
+    border: 2px solid #333;
+}
+
+.appFields button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: green;
+}

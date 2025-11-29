@@ -1,0 +1,31 @@
+.historyContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:750px;
+    width: 100%;
+    background-color: royalblue;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    box-shadow: 0 0 15px rgba(65, 105, 225, 0.445);
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+}
+
+.box span:first-child{
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-weight: 550;
+}
