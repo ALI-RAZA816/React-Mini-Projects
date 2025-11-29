@@ -1,0 +1,66 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.navigation ul {
+    gap: 24px;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.navigation ul li a {
+    color: #2E2E2E;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.crossIcon,
+.barIcon {
+    cursor: pointer;
+    font-size: 1.4rem;
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+
+    .menulink {
+        position: absolute;
+        top:0;
+        left:-100%;
+        width: 100%;
+        transition: .30s cubic-bezier(0.39, 0.575, 0.565, 1);
+        padding:.5rem;
+        background-color: #fff;
+    }
+
+    .menulink ul {
+        display: block;
+    }
+
+    .menulink ul li {
+        margin-bottom: 1rem;
+    }
+
+    .crossIcon,
+    .barIcon {
+        display: block;
+    }
+
+    .crossIcon{
+        width: 100%;
+        display: flow-root;
+    }
+
+    .crossIcon i{
+        float: right;
+    }
+}
+
+.show{
+    left: 0;
+}

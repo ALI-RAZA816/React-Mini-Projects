@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    padding: 0 2rem;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #efefef;
+}
+
+.logo h1 {
+    color: #333;
+}
+
+.menuLinks ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin-bottom: 0 !important;
+}
+
+.menuLinks ul li{
+    margin-right: 2rem;
+}
+
+.menuLinks ul li a{
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.menuLinks ul li:last-child{
+    margin-right: 0 !important;
+}
+

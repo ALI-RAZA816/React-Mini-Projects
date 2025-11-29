@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    /* background-color: #fff; */
+}
+
+.container > h1{
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+#taskField{
+    height: 45px;
+    width:100%;
+}
+
+#taskBtn{
+    height: 45px;
+    width: 150px;
+    text-wrap: nowrap;
+    outline: none;
+    box-shadow:none;
+    margin-left: 1rem;
+    background-color: royalblue;
+}
+
+#tasRenderList li{
+    display: flex;
+    position: relative;
+    border-radius:8px;
+    padding: .7rem;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: space-between;
+}
+
+#tasRenderList li:hover{
+    background-color: rgb(211, 224, 235);
+}
+
+#tasRenderList li button{
+    position: absolute;
+    right:5px;
+    top:5px;
+}
+
