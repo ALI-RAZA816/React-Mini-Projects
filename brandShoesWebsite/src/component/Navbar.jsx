@@ -1,4 +1,8 @@
 import React, {useState} from "react";
+import { FaBars } from "react-icons/fa6";
+import { FaXmark } from "react-icons/fa6";
+
+
 function Navbar() {
 
     const [active, Setactive] = useState(false);
@@ -19,7 +23,7 @@ function Navbar() {
                 </div>
                 <div className={`link ${active === true? 'show':' '}`}>
                     <div className="cross-icon" onClick={hideMenu}>
-                        <i className="fa-solid fa-xmark"></i>
+                        <FaXmark />
                     </div>
                     <ul className="menu">
                         <li className="navmenu"><a href='/'>Menu</a></li>
@@ -30,7 +34,7 @@ function Navbar() {
                     <button>Login</button>
                 </div>
                 <div className="bar-icon" onClick={showMenu}>
-                    <i className="fa-solid fa-bars"></i>
+                    <FaBars />
                 </div>
             </nav>
         </div>
